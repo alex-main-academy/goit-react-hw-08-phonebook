@@ -30,6 +30,7 @@ export const auth = createSlice({
       state.user.email = action.payload.user.email;
       state.token = action.payload.token;
       state.isAuth = true;
+      state.isFormLoad = false;
       Notiflix.Notify.success('This is your personal account');
     },
     [userSignIn.rejected](state) {
@@ -44,6 +45,7 @@ export const auth = createSlice({
       state.user.email = action.payload.user.email;
       state.token = action.payload.token;
       state.isAuth = true;
+      state.isFormLoad = false;
       Notiflix.Notify.success('This is your personal account');
     },
     [userLogIn.rejected](state) {
