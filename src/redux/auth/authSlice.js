@@ -57,6 +57,7 @@ export const auth = createSlice({
       state.user.email = null;
       state.token = null;
       state.isAuth = false;
+      state.isFormLoad = false;
       Notiflix.Notify.success('Your logout is success');
     },
     [userGetCurrent.pending](state) {
