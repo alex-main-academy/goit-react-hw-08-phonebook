@@ -1,0 +1,43 @@
+.sign__title {
+    text-align: center;
+}
+
+.sign__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.sign__input {
+    display: block;
+    width: 290px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 10px;
+    outline: none;
+    transition-duration: 400ms;
+}
+
+.sign__input:focus {
+    border: 1px solid rgb(55, 198, 246);
+}
+
+.sign__button {
+    width: 100px;
+    margin: 0 auto;
+    padding: 7px 0;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+
+.sign__button:hover {
+    background-color: #e38400;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.contact__name input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.contact__number {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__button {
+    cursor: pointer;
+    border: 1px solid #e38400;
+    border-radius: 10px;
+    background-color: #e38400;
+    color: white;
+    margin-top: 10px;
+    padding: 7px 15px;
+    transition-duration: 500ms;
+}
+
+.contact__button:hover {
+    background-color: transparent;
+    color: #000000;
+}
